@@ -76,13 +76,14 @@ canvas {
 
 #up {
   color: white;
-  background: darkolivegreen;
+  background: orangered;
   grid-area: up;
   margin: 7px;
   width: 60px;
   height: 50px;
   border-radius: 30px;
   font-size: 35px;
+  font-weight: bold;
   text-shadow: 2px 2px 5px black;
   text-align: center;
   box-shadow: 5px 5px 5px #222222;
@@ -97,12 +98,13 @@ canvas {
 
 #down {
   color: white;
-  background: darkolivegreen;
+  background: orangered;
   grid-area: down;
   margin: 7px;
   border-radius: 30px;
   height: 50px;
   font-size: 35px;
+  font-weight: bold;
   text-shadow: 2px 2px 5px black;
   text-align: center;
   box-shadow: 5px 5px 5px #222222;
@@ -116,12 +118,13 @@ canvas {
 }
 #left {
   color: white;
-  background: darkolivegreen;
+  background: orangered;
   grid-area: left;
   margin: 7px;
   width: 60px;
   border-radius: 30px;
   font-size: 35px;
+  font-weight: bold;
   text-shadow: 2px 2px 5px black;
   box-shadow: 5px 5px 5px #222222;
   touch-action: manipulation;
@@ -134,12 +137,13 @@ canvas {
 }
 #right {
   color: white;
-  background: darkolivegreen;
+  background: orangered;
   grid-area: right;
   margin: 7px;
   width: 60px;
   border-radius: 30px;
   font-size: 35px;
+  font-weight: bold;
   text-shadow: 2px 2px 5px black;
   box-shadow: 5px 5px 5px #222222;
   touch-action: manipulation;
