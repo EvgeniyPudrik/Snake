@@ -49,7 +49,9 @@ let Block = function(col, row) {
 
 let circle = function(x, y, radius) {
   ctx.beginPath();
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "white"
+  ctx.shadowColor = "white";
+  ctx.shadowBlur = 10;
   ctx.arc(x, y, radius, 0, 2 * Math.PI, false);
   ctx.fill();
   ctx.closePath();
@@ -73,6 +75,8 @@ Block.prototype.drawSquare = function() {
   }
   else {
     ctx.fillStyle = randomColor;
+    ctx.shadowColor = "white";
+    ctx.shadowBlur = 10;
   }
   ctx.fillRect(squareX, squareY, blockSize, blockSize);
   ctx.fill();

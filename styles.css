@@ -11,23 +11,35 @@ body {
   font-weight: bold;
   text-shadow: 2px 2px 5px black;
   border-radius: 30px;
-  font-family: Broadway, serif;
+  font-family: Broadway, serif, "Matura MT Script Capitals", serif;
   background: #b3d4fc;
   box-shadow: 10px 10px 10px black;
-  margin: 10px;
-  padding: 10px;
+  margin-bottom: 7px;
+  padding: 3px;
+
   transition: 0.1s ease-in-out;
 }
 
+.name:hover {
+  cursor: pointer;
+}
 .name:active {
   transform: scale(0.95);
   box-shadow: 2px 2px 5px #222222;
 }
 
+p {
+  color: orangered;
+  font-family: "Matura MT Script Capitals", serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: none;
+}
+
 canvas {
   background: #222222;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px #222222;
+  box-shadow: 10px 10px 15px black;
 }
 
 .score {
@@ -35,7 +47,7 @@ canvas {
   background: lightseagreen;
   width: 150px;
   height: 100px;
-  margin: 10px;
+  margin: 5px;
   padding-top: 10px;
   box-shadow: 10px 10px 20px #222222;
   text-align: center;
